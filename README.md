@@ -23,7 +23,7 @@ Clone the repository:
 
 bash
 Копировать код
-git clone https://github.com/yourusername/weather-app.git
+git clone [https://github.com/yourusername/weather-app.git](https://github.com/krmvz/Weather-app.git)
 cd weather-app
 Create a virtual environment and activate it:
 
@@ -59,7 +59,7 @@ API Keys: Obtain an API key from a weather service provider (e.g., OpenWeatherMa
 python
 Копировать код
 # settings.py
-WEATHER_API_KEY = 'your_api_key_here'
+WEATHER_API_KEY = 'https://api.weatherbit.io/v2.0/current?lat={}&lon={}&key={}'
 Swagger Configuration: Swagger is already configured in the project. You can access the API documentation at http://127.0.0.1:8000/swagger/.
 
 Usage
